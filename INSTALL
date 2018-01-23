@@ -1,0 +1,9 @@
+Building DV7Coin
+
+See doc/readme-qt.rst for instructions on building DV7Coin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of DV7Coin.
+
+See doc/build-*.txt for instructions on building dv7coind,
+the intended-for-services, no-graphical-interface, reference
+implementation of DV7Coin.
