@@ -52,26 +52,66 @@ inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MO
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 
-
+//Code to reduce block reward yearly by 10%
 inline int64_t GetCoinYearReward(int nHeight) {
-    int64_t YearPercent = 20;
+    int64_t YearPercent = 10;
 
-    if (!TestNet() && nHeight < 1000)
-        YearPercent = 0;
-    else if (nHeight <= 8000)
-        YearPercent = 1000;
+    if (!TestNet() && nHeight <= 4000)
+        YearPercent = 50;
     else if (nHeight <= 20000)
-        YearPercent = 5000;
-    else if (nHeight <= 43000)
-        YearPercent = 10000;
-    else if (nHeight <= 45000)
+        YearPercent = 600;
+    else if (nHeight <= 40000)
+        YearPercent = 550;
+    else if (nHeight <= 60000)
         YearPercent = 500;
-    else if (nHeight <= 50000)
+    else if (nHeight <= 80000)
+        YearPercent = 475;
+    else if (nHeight <= 100000)
+        YearPercent = 450;
+    else if (nHeight <= 120000)
+        YearPercent = 425;
+    else if (nHeight <= 140000)
+        YearPercent = 400;
+    else if (nHeight <= 160000)
+        YearPercent = 375;
+    else if (nHeight <= 180000)
+        YearPercent = 350;
+    else if (nHeight <= 200000)
+        YearPercent = 325;
+    else if (nHeight <= 220000)
+        YearPercent = 300;
+    else if (nHeight <= 240000)
+        YearPercent = 275;
+    else if (nHeight <= 260000)
         YearPercent = 250;
-    else if (nHeight <= 55000)
+    else if (nHeight <= 280000)
+        YearPercent = 225;
+    else if (nHeight <= 300000)
+        YearPercent = 200;
+    else if (nHeight <= 320000)
+        YearPercent = 180;
+    else if (nHeight <= 340000)
+        YearPercent = 160;
+    else if (nHeight <= 360000)
+        YearPercent = 140;
+    else if (nHeight <= 380000)
+        YearPercent = 130;
+    else if (nHeight <= 400000)
+        YearPercent = 120;
+    else if (nHeight <= 420000)
+        YearPercent = 110;
+    else if (nHeight <= 440000)
         YearPercent = 100;
+    else if (nHeight <= 460000)
+        YearPercent = 90;
+    else if (nHeight <= 480000)
+        YearPercent = 80;
+    else if (nHeight <= 500000)
+        YearPercent = 70;
+    else if (nHeight <= 520000)
+        YearPercent = 60;
     else
-        YearPercent = 20;
+        YearPercent = 50;
 
     return YearPercent * CENT; // per year
 }
