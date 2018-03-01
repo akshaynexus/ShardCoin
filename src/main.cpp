@@ -970,20 +970,20 @@ static CBigNum GetProofOfStakeLimit(int nHeight)
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int64_t nFees)
 {
-	// Defaults to 100 coins per block.
+	// Defaults to 1 coins per block.
 	int64_t nSubsidy = 1 * COIN;
 
-	// Premine 0.01% (5M)
+	// Premine 25M
 	if(pindexBest->nHeight+1 == 1) {
-		nSubsidy = 5000000 * COIN;
+		nSubsidy = 25000000 * COIN;
 	} else if (pindexBest->nHeight+1 > 1 && pindexBest->nHeight+1 <= 1000) {
 		nSubsidy = 0 * COIN;
 	} else if (pindexBest->nHeight+1 > 1000 && pindexBest->nHeight+1 <= 5000) {
-		nSubsidy = 50 * COIN;
+		nSubsidy = 25 * COIN;
 	} else if (pindexBest->nHeight+1 > 5000 && pindexBest->nHeight+1 <= 10000) {
-		nSubsidy = 20 * COIN;
+		nSubsidy = 10 * COIN;
 	} else {
-		nSubsidy = 2 * COIN;
+		nSubsidy = 1 * COIN;
 	}
 
 	LogPrint("creation", "GetProofOfWorkReward() : create=%s nSubsidy=%d\n", FormatMoney(nSubsidy), nSubsidy);
