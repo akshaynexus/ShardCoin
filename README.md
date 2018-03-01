@@ -1,7 +1,7 @@
 
-DV7Coin development tree
+Shard development tree
 
-DV7Coin is a PoS-based cryptocurrency.
+Shard is a PoS-based cryptocurrency.
 
 Development process
 ===========================
@@ -16,7 +16,7 @@ or are controversial.
 
 The master branch is regularly built and tested, but is not guaranteed
 to be completely stable. Tags are regularly created to indicate new
-stable release versions of DV7Coin.
+stable release versions of Shard.
 
 Feature branches are created when there are major new features being
 worked on by several people.

@@ -4,9 +4,9 @@ Makefile*
 object_script.*
 release
 src/*.exe
-src/dv7coin
-src/dv7coind
-src/test_dv7coin
+src/shard
+src/shardd
+src/test_shard
 src/build.h
 .*.swp
 *.*~*
@@ -15,13 +15,13 @@ src/build.h
 *.orig
 *.o
 *.patch
-.dv7coin
+.shard
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-DV7Coin-qt
-DV7Coin-Qt.app
-DV7Coin-Qt.dmg
+Shard-qt
+Shard-Qt.app
+Shard-Qt.dmg
 #resources cpp
 qrc_*.cpp
 #qt creator
@@ -30,7 +30,7 @@ qrc_*.cpp
 .DS_Store
 build
 .vscode
-dv7coin-qt_plugin_import.cpp
+shard-qt_plugin_import.cpp
 
 !src/leveldb/Makefile
 

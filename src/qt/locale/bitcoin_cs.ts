@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About DV7Coin</source>
-        <translation>O DV7Coinu</translation>
+        <source>About Shard</source>
+        <translation>O Shardu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;DV7Coin&lt;/b&gt; version</source>
-        <translation>Verze &lt;b&gt;DV7Coinu&lt;/b&gt; </translation>
+        <source>&lt;b&gt;Shard&lt;/b&gt; version</source>
+        <translation>Verze &lt;b&gt;Shardu&lt;/b&gt; </translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018 The DV7Coin developers</source>
+Copyright © 2018 The Shard developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018 The DV7Coin developers</translation>
+Copyright © 2018 The Shard developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your DV7Coin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tato jsou tvé DV7Coin adresy pro příjem plateb. Každému odesílateli můžeš dát jinou adresu, aby jsi mohl sledovat, kdo ti platí.</translation>
+        <source>These are your Shard addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tato jsou tvé Shard adresy pro příjem plateb. Každému odesílateli můžeš dát jinou adresu, aby jsi mohl sledovat, kdo ti platí.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a DV7Coin address</source>
-        <translation>Podepiš zprávu, aby jsi dokázal, že vlastníš tuto DV7Coin adresu.</translation>
+        <source>Sign a message to prove you own a Shard address</source>
+        <translation>Podepiš zprávu, aby jsi dokázal, že vlastníš tuto Shard adresu.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified DV7Coin address</source>
-        <translation>Ověř zprávu, aby jsi zajistil, že byla podepsaná určitou DV7Coin adresou.</translation>
+        <source>Verify a message to ensure it was signed with a specified Shard address</source>
+        <translation>Ověř zprávu, aby jsi zajistil, že byla podepsaná určitou Shard adresou.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>DV7Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Pro dokončení procesu šifrování se DV7Coin nyní zavře, Pamatuj, že zašifrování tvé peněženky nemůže plně ochránit tvé mince před krádeží, pokud máš počítač infikován malwerem.</translation>
+        <source>Shard will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Pro dokončení procesu šifrování se Shard nyní zavře, Pamatuj, že zašifrování tvé peněženky nemůže plně ochránit tvé mince před krádeží, pokud máš počítač infikován malwerem.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about DV7Coin</source>
-        <translation>Zobraz informace a DV7Coinu</translation>
+        <source>Show information about Shard</source>
+        <translation>Zobraz informace a Shardu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a DV7Coin address</source>
-        <translation>Odešli mince na DV7Coin adresu</translation>
+        <source>Send coins to a Shard address</source>
+        <translation>Odešli mince na Shard adresu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for DV7Coin</source>
-        <translation>Uprav možnosti konfigurace pro DV7Coin</translation>
+        <source>Modify configuration options for Shard</source>
+        <translation>Uprav možnosti konfigurace pro Shard</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>DV7Coin</source>
-        <translation>DV7Coin</translation>
+        <source>Shard</source>
+        <translation>Shard</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About DV7Coin</source>
-        <translation>&amp;O DV7Coinu</translation>
+        <source>&amp;About Shard</source>
+        <translation>&amp;O Shardu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>DV7Coin client</source>
-        <translation>DV7Coin klient</translation>
+        <source>Shard client</source>
+        <translation>Shard klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to DV7Coin network</source>
-        <translation><numerusform>%n aktivní spojení do DV7Coin sítě</numerusform><numerusform>%n aktivních spojení do DV7Coin sítě</numerusform><numerusform>%n aktivních spojení do DV7Coin sítě</numerusform></translation>
+        <source>%n active connection(s) to Shard network</source>
+        <translation><numerusform>%n aktivní spojení do Shard sítě</numerusform><numerusform>%n aktivních spojení do Shard sítě</numerusform><numerusform>%n aktivních spojení do Shard sítě</numerusform></translation>
     </message>
     <message>
         <location line="+6"/>
@@ -595,8 +595,8 @@ Adresa: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid DV7Coin address or malformed URI parameters.</source>
-        <translation>URI nejde rozparsovat! To může být způsobeno neplatnou DV7Coin adresou nebo chybnými URI parametry.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Shard address or malformed URI parameters.</source>
+        <translation>URI nejde rozparsovat! To může být způsobeno neplatnou Shard adresou nebo chybnými URI parametry.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -718,8 +718,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. DV7Coin can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažné chybě. DV7Coin již nemůže dále bezpečně pokračovat a bude ukončen.</translation>
+        <source>A fatal error occurred. Shard can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažné chybě. Shard již nemůže dále bezpečně pokračovat a bude ukončen.</translation>
     </message>
 </context>
 <context>
@@ -994,8 +994,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid DV7Coin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; není platná DV7Coin adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Shard address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; není platná Shard adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1013,8 +1013,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>DV7Coin-Qt</source>
-        <translation>DV7Coin-Qt</translation>
+        <source>Shard-Qt</source>
+        <translation>Shard-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1086,13 +1086,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start DV7Coin after logging in to the system.</source>
-        <translation>Automaticky spustit DV7Coin po přihlášení do systému.</translation>
+        <source>Automatically start Shard after logging in to the system.</source>
+        <translation>Automaticky spustit Shard po přihlášení do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DV7Coin on system login</source>
-        <translation>&amp;Spustit DV7Coin při přihlášení do systému</translation>
+        <source>&amp;Start Shard on system login</source>
+        <translation>&amp;Spustit Shard při přihlášení do systému</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1101,8 +1101,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the DV7Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otevřít port DV7Coin klienta na routeru. Funguje to jen tehdy, když router podporuje UPnP a je povoleno.</translation>
+        <source>Automatically open the Shard client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otevřít port Shard klienta na routeru. Funguje to jen tehdy, když router podporuje UPnP a je povoleno.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1131,7 +1131,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the DV7Coin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Shard network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1176,8 +1176,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DV7Coin.</source>
-        <translation>Zde můžeš nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartu DV7Coinu.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Shard.</source>
+        <translation>Zde můžeš nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartu Shardu.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1233,8 +1233,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting DV7Coin.</source>
-        <translation>Nastavení se projeví až po restartu DV7Coinu.</translation>
+        <source>This setting will take effect after restarting Shard.</source>
+        <translation>Nastavení se projeví až po restartu Shardu.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1252,8 +1252,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DV7Coin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace můžou být zastaralé. Tvá peněženka se automaticky synchronizuje s DV7Coin sítí po navázaní spojení, ale tento proces ještě není dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Shard network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informace můžou být zastaralé. Tvá peněženka se automaticky synchronizuje s Shard sítí po navázaní spojení, ale tento proces ještě není dokončený.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1326,7 +1326,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start dv7coin: click-to-pay handler</source>
+        <source>Cannot start shard: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1496,8 +1496,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the DV7Coin-Qt help message to get a list with possible DV7Coin command-line options.</source>
-        <translation>Zobrazit DV7Coin-Qt nápovědu pro zobrazení seznam dostupným možností příkazového řádku.</translation>
+        <source>Show the Shard-Qt help message to get a list with possible Shard command-line options.</source>
+        <translation>Zobrazit Shard-Qt nápovědu pro zobrazení seznam dostupným možností příkazového řádku.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1516,13 +1516,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>DV7Coin - Debug window</source>
-        <translation>DV7Coin - Ladící okno</translation>
+        <source>Shard - Debug window</source>
+        <translation>Shard - Ladící okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>DV7Coin Core</source>
-        <translation>Jádro DV7Coinu</translation>
+        <source>Shard Core</source>
+        <translation>Jádro Shardu</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1531,8 +1531,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the DV7Coin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři logovací soubor DV7Coinu z aktuálního datového adresáře. Pro velké logy to může trvat několik sekund.</translation>
+        <source>Open the Shard debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otevři logovací soubor Shardu z aktuálního datového adresáře. Pro velké logy to může trvat několik sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1541,8 +1541,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the DV7Coin RPC console.</source>
-        <translation>Vítej v DV7Coin RPC konzoli.</translation>
+        <source>Welcome to the Shard RPC console.</source>
+        <translation>Vítej v Shard RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1712,8 +1712,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a DV7Coin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Napiš DV7Coin adresu (např. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a Shard address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Napiš Shard adresu (např. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1807,8 +1807,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid DV7Coin address</source>
-        <translation>UPOZORNĚNÍ: Neplatná DV7Coin adresa</translation>
+        <source>WARNING: Invalid Shard address</source>
+        <translation>UPOZORNĚNÍ: Neplatná Shard adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1881,8 +1881,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DV7Coin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Zadej DV7Coin adresu (např. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a Shard address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Zadej Shard adresu (např. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
 </context>
 <context>
@@ -1942,8 +1942,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DV7Coin address</source>
-        <translation>Podepiš zprávu jako důkaz, že vlastníš tuto DV7Coin adresu</translation>
+        <source>Sign the message to prove you own this Shard address</source>
+        <translation>Podepiš zprávu jako důkaz, že vlastníš tuto Shard adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1974,8 +1974,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified DV7Coin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou DV7Coin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Shard address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Shard adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1985,8 +1985,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DV7Coin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Zadej DV7Coin adresu (např. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a Shard address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Zadej Shard adresu (např. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1995,8 +1995,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter DV7Coin signature</source>
-        <translation>Zadej DV7Coin podpis</translation>
+        <source>Enter Shard signature</source>
+        <translation>Zadej Shard podpis</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2574,8 +2574,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>DV7Coin version</source>
-        <translation>Verze DV7Coinu</translation>
+        <source>Shard version</source>
+        <translation>Verze Shardu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2584,8 +2584,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or dv7coind</source>
-        <translation>Pošli příkaz na -server nebo dv7coind</translation>
+        <source>Send command to -server or shardd</source>
+        <translation>Pošli příkaz na -server nebo shardd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2604,13 +2604,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: dv7coin.conf)</source>
-        <translation>Urči konfigurační soubor (výchozí: dv7coin.conf)</translation>
+        <source>Specify configuration file (default: shard.conf)</source>
+        <translation>Urči konfigurační soubor (výchozí: shard.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: dv7coind.pid)</source>
-        <translation>Urči pid soubor (výchozí: dv7coind.pid)</translation>
+        <source>Specify pid file (default: shardd.pid)</source>
+        <translation>Urči pid soubor (výchozí: shardd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2627,13 +2627,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dv7coinrpc
+rpcuser=shardrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DV7Coin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2734,8 +2734,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DV7Coin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DV7Coin will not work properly.</source>
-        <translation>Upozornění: Zkontroluj prosím datum a čas tvého počítače! Pokud jdou tvé hodiny špatně, tak DV7Coin nebude pracovat správně. </translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Shard will not work properly.</source>
+        <translation>Upozornění: Zkontroluj prosím datum a čas tvého počítače! Pokud jdou tvé hodiny špatně, tak Shard nebude pracovat správně. </translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3029,7 +3029,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DV7Coin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. DV7Coin is shutting down.</source>
+        <source>Initialization sanity check failed. Shard is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3084,13 +3084,13 @@ for example: alertnotify=echo %%s | mail -s &quot;DV7Coin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DV7Coin</source>
-        <translation>Chyba načítání wallet.dat: Peněženka vyžaduje novější verzi DV7Coinu</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Shard</source>
+        <translation>Chyba načítání wallet.dat: Peněženka vyžaduje novější verzi Shardu</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart DV7Coin to complete</source>
-        <translation>Peněženka by potřebovala být přepsána: restartuj DV7Coin pro dokončení</translation>
+        <source>Wallet needed to be rewritten: restart Shard to complete</source>
+        <translation>Peněženka by potřebovala být přepsána: restartuj Shard pro dokončení</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3149,8 +3149,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DV7Coin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. DV7Coin is probably already running.</source>
-        <translation>Nemůžu se svázat s %s na tomto počítači. DV7Coin nejspíše již běží.</translation>
+        <source>Unable to bind to %s on this computer. Shard is probably already running.</source>
+        <translation>Nemůžu se svázat s %s na tomto počítači. Shard nejspíše již běží.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3179,7 +3179,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DV7Coin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. DV7Coin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Shard is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

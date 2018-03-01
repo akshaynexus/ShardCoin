@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About DV7Coin</source>
-        <translation>О DV7Coin</translation>
+        <source>About Shard</source>
+        <translation>О Shard</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;DV7Coin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;DV7Coin&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;Shard&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Shard&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018 The DV7Coin developers</source>
+Copyright © 2018 The Shard developers</source>
         <translation>Все права защищены © 2009-2014 Разработчики Bitcoin
 Все права защищены © 2012-2014 Разработчики NovaCoin
-Все права защищены © 2018 Разработчики DV7Coin</translation>
+Все права защищены © 2018 Разработчики Shard</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,7 +60,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your DV7Coin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Shard addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a DV7Coin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом DV7Coin</translation>
+        <source>Sign a message to prove you own a Shard address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Shard</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified DV7Coin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом DV7Coin</translation>
+        <source>Verify a message to ensure it was signed with a specified Shard address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Shard</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,7 +258,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>DV7Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>Shard will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about DV7Coin</source>
-        <translation>Показать информацию о DV7Coin&apos;е</translation>
+        <source>Show information about Shard</source>
+        <translation>Показать информацию о Shard&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a DV7Coin address</source>
-        <translation>Отправить монеты на указанный адрес DV7Coin</translation>
+        <source>Send coins to a Shard address</source>
+        <translation>Отправить монеты на указанный адрес Shard</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for DV7Coin</source>
-        <translation>Изменить параметры конфигурации DV7Coin</translation>
+        <source>Modify configuration options for Shard</source>
+        <translation>Изменить параметры конфигурации Shard</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>DV7Coin</source>
-        <translation>DV7Coin</translation>
+        <source>Shard</source>
+        <translation>Shard</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About DV7Coin</source>
-        <translation>&amp;О DV7Coin</translation>
+        <source>&amp;About Shard</source>
+        <translation>&amp;О Shard</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,12 +500,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>DV7Coin client</source>
-        <translation>DV7Coin клиент</translation>
+        <source>Shard client</source>
+        <translation>Shard клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to DV7Coin network</source>
+        <source>%n active connection(s) to Shard network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -595,8 +595,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid DV7Coin address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом DV7Coin или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Shard address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Shard или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -718,8 +718,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. DV7Coin can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. DV7Coin не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. Shard can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. Shard не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -984,8 +984,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid DV7Coin address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным DV7Coin-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Shard address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным Shard-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1003,8 +1003,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>DV7Coin-Qt</source>
-        <translation>DV7Coin-Qt</translation>
+        <source>Shard-Qt</source>
+        <translation>Shard-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1076,13 +1076,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start DV7Coin after logging in to the system.</source>
-        <translation>Автоматически запускать DV7Coin после входа в систему</translation>
+        <source>Automatically start Shard after logging in to the system.</source>
+        <translation>Автоматически запускать Shard после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DV7Coin on system login</source>
-        <translation>&amp;Запускать DV7Coin при входе в систему</translation>
+        <source>&amp;Start Shard on system login</source>
+        <translation>&amp;Запускать Shard при входе в систему</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1091,8 +1091,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the DV7Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для DV7Coin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the Shard client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для Shard-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1121,7 +1121,7 @@ Address: %4
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the DV7Coin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Shard network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1166,8 +1166,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DV7Coin.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска DV7Coin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Shard.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Shard.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1223,8 +1223,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting DV7Coin.</source>
-        <translation>Эта настройка вступит в силу после перезапуска DV7Coin</translation>
+        <source>This setting will take effect after restarting Shard.</source>
+        <translation>Эта настройка вступит в силу после перезапуска Shard</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1242,8 +1242,8 @@ Address: %4
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DV7Coin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью DV7Coin после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Shard network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Shard после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1316,7 +1316,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start dv7coin: click-to-pay handler</source>
+        <source>Cannot start shard: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1486,8 +1486,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the DV7Coin-Qt help message to get a list with possible DV7Coin command-line options.</source>
-        <translation>Показать помощь по DV7Coin-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the Shard-Qt help message to get a list with possible Shard command-line options.</source>
+        <translation>Показать помощь по Shard-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1506,13 +1506,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>DV7Coin - Debug window</source>
-        <translation>DV7Coin - Окно отладки</translation>
+        <source>Shard - Debug window</source>
+        <translation>Shard - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>DV7Coin Core</source>
-        <translation>Ядро DV7Coin</translation>
+        <source>Shard Core</source>
+        <translation>Ядро Shard</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1521,8 +1521,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the DV7Coin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл DV7Coin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the Shard debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл Shard из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1531,8 +1531,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the DV7Coin RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль DV7Coin.</translation>
+        <source>Welcome to the Shard RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль Shard.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1702,8 +1702,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a DV7Coin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Введите DV7Coin-адрес (например DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a Shard address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Введите Shard-адрес (например DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1797,7 +1797,7 @@ Address: %4
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid DV7Coin address</source>
+        <source>WARNING: Invalid Shard address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1871,8 +1871,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DV7Coin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Введите DV7Coin-адрес (например DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a Shard address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Введите Shard-адрес (например DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
 </context>
 <context>
@@ -1932,8 +1932,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DV7Coin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом DV7Coin</translation>
+        <source>Sign the message to prove you own this Shard address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Shard</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1964,8 +1964,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified DV7Coin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом DV7Coin</translation>
+        <source>Verify the message to ensure it was signed with the specified Shard address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Shard</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1975,8 +1975,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DV7Coin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Введите адрес DV7Coin (напр. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a Shard address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Введите адрес Shard (напр. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1985,8 +1985,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter DV7Coin signature</source>
-        <translation>Введите подпись DV7Coin</translation>
+        <source>Enter Shard signature</source>
+        <translation>Введите подпись Shard</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2564,7 +2564,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>DV7Coin version</source>
+        <source>Shard version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2574,8 +2574,8 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or dv7coind</source>
-        <translation>Отправить команду на -server или dv7coind</translation>
+        <source>Send command to -server or shardd</source>
+        <translation>Отправить команду на -server или shardd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2595,13 +2595,13 @@ Address: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: dv7coin.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: dv7coin.conf)</translation>
+        <source>Specify configuration file (default: shard.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: shard.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: dv7coind.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: dv7coind.pid)</translation>
+        <source>Specify pid file (default: shardd.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: shardd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2618,13 +2618,13 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dv7coinrpc
+rpcuser=shardrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DV7Coin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2725,8 +2725,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DV7Coin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DV7Coin will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, DV7Coin будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Shard will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Shard будет работать некорректно.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3021,7 +3021,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DV7Coin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. DV7Coin is shutting down.</source>
+        <source>Initialization sanity check failed. Shard is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3076,13 +3076,13 @@ for example: alertnotify=echo %%s | mail -s &quot;DV7Coin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DV7Coin</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию DV7Coin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Shard</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Shard</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart DV7Coin to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите DV7Coin для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart Shard to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите Shard для завершения операции</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3141,8 +3141,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DV7Coin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. DV7Coin is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, DV7Coin уже работает.</translation>
+        <source>Unable to bind to %s on this computer. Shard is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Shard уже работает.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3171,7 +3171,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DV7Coin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. DV7Coin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Shard is probably already running.</source>
         <translation>Невозможно установить блокировку на рабочую директорию %s.  Возможно, бумажник уже запущен.</translation>
     </message>
     <message>

@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
 	if (self == [NSBundle mainBundle]) {
-		return @"com.dv7coin.DV7Coin-qt";
+		return @"com.shard.Shard-qt";
 	} else {
 		return [self __bundleIdentifier];
 	}

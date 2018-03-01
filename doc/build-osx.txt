@@ -7,12 +7,12 @@ software written by Eric Young (eay@cryptsoft.com) and UPnP software written by
 Thomas Bernard.
 
 
-Mac OS X dv7coind build instructions
+Mac OS X shardd build instructions
 Laszlo Hanyecz <solar@heliacal.net>
 Douglas Huff <dhuff@jrbobdobbs.org>
 
 
-See readme-qt.rst for instructions on building DV7Coin QT, the
+See readme-qt.rst for instructions on building Shard QT, the
 graphical user interface.
 
 Tested on 10.5 and 10.6 intel.  PPC is not supported because it's big-endian.
@@ -27,7 +27,7 @@ but you can get the current version from http://developer.apple.com
 
 1.  Clone the github tree to get the source code:
 
-git clone https://github.com/DV7Coin/DV7Coin.git DV7Coin
+git clone https://github.com/Shard/Shard.git Shard
 
 2.  Download and install MacPorts from http://www.macports.org/
 
@@ -41,14 +41,14 @@ sudo port install boost db48 openssl miniupnpc
 Optionally install qrencode (and set USE_QRCODE=1):
 sudo port install qrencode
 
-4.  Now you should be able to build dv7coind:
+4.  Now you should be able to build shardd:
 
-cd DV7Coin/src
+cd Shard/src
 make -f makefile.osx
 
 Run:
-  ./dv7coind --help  # for a list of command-line options.
+  ./shardd --help  # for a list of command-line options.
 Run
-  ./dv7coind -daemon # to start the DV7Coin daemon.
+  ./shardd -daemon # to start the Shard daemon.
 Run
-  ./dv7coind help # When the daemon is running, to get a list of RPC commands
+  ./shardd help # When the daemon is running, to get a list of RPC commands

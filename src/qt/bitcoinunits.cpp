@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("DV7");
-    case mBTC: return QString("mDV7");
-    case uBTC: return QString::fromUtf8("μDV7");
+    case BTC: return QString("SHARD");
+    case mBTC: return QString("mSHARD");
+    case uBTC: return QString::fromUtf8("μSHARD");
     default: return QString("???");
     }
 }
@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("DV7s");
-    case mBTC: return QString("Milli-DV7 (1 / 1,000)");
-    case uBTC: return QString("Micro-DV7 (1 / 1,000,000)");
+    case BTC: return QString("SHARDs");
+    case mBTC: return QString("Milli-SHARD (1 / 1,000)");
+    case uBTC: return QString("Micro-SHARD (1 / 1,000,000)");
     default: return QString("???");
     }
 }

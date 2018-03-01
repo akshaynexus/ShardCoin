@@ -1,9 +1,9 @@
-Building DV7Coin
+Building Shard
 
-See doc/readme-qt.rst for instructions on building DV7Coin QT,
+See doc/readme-qt.rst for instructions on building Shard QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of DV7Coin.
+implementation of Shard.
 
-See doc/build-*.txt for instructions on building dv7coind,
+See doc/build-*.txt for instructions on building shardd,
 the intended-for-services, no-graphical-interface, reference
-implementation of DV7Coin.
+implementation of Shard.

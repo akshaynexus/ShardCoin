@@ -237,7 +237,7 @@ static bool GetKernelStakeModifier(uint256 hashBlockFrom, uint256& nStakeModifie
     return true;
 }
 
-// DV7Coin kernel protocol
+// Shard kernel protocol
 // coinstake must meet hash target according to the protocol:
 // kernel (input 0) must meet the formula
 //     hash(nStakeModifier + txPrev.block.nTime + txPrev.nTime + txPrev.vout.hash + txPrev.vout.n + nTime) < bnTarget * nWeight
