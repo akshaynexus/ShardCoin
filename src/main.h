@@ -118,8 +118,8 @@ inline int64_t GetCoinYearReward(int nHeight) {
 inline int64_t FutureDrift(int64_t nTime) { return nTime + 10 * 60; }
 
 inline unsigned int GetTargetSpacing(int nHeight) {
-    // defaults to 2 minutes.
-    return 120;
+    // defaults to 3 minutes.
+    return 180;
 }
 
 extern CScript COINBASE_FLAGS;
