@@ -46,7 +46,7 @@ unsigned int nStakeMinAge = 9 * 60 * 60; // 9 hours
 unsigned int nStakeMaxAge = 3 * (60 * 60 * 24); // 3 days
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
-int nCoinbaseMaturity = 30;
+int nCoinbaseMaturity = 21;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
