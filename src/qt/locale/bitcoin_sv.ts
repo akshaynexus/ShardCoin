@@ -2649,8 +2649,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 17057 or testnet: 27057)</source>
-        <translation>Lyssna efter anslutningar på &lt;port&gt; (standard: 17057 eller testnät: 27057)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 48200 or testnet: 58200)</source>
+        <translation>Lyssna efter anslutningar på &lt;port&gt; (standard: 48200 eller testnät: 58200)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2699,8 +2699,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="-126"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 17058 or testnet: 27058)</source>
-        <translation>Lyssna efter JSON-RPC anslutningar på &lt;port&gt; (standard: 17058 eller testnät: 27058)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 48210 or testnet: 27058)</source>
+        <translation>Lyssna efter JSON-RPC anslutningar på &lt;port&gt; (standard: 48210 eller testnät: 27058)</translation>
     </message>
     <message>
         <location line="-16"/>

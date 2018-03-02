@@ -2663,8 +2663,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Shard upozornenie&quot; admin@f
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 17057 or testnet: 27057)</source>
-        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: 17057 alebo testovacia sieť: 27057)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 48200 or testnet: 58200)</source>
+        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: 48200 alebo testovacia sieť: 58200)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,8 +2713,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Shard upozornenie&quot; admin@f
     </message>
     <message>
         <location line="-126"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 17058 or testnet: 27058)</source>
-        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: 17058 alebo testovacia sieť: 27058)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 48210 or testnet: 27058)</source>
+        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: 48210 alebo testovacia sieť: 27058)</translation>
     </message>
     <message>
         <location line="-16"/>

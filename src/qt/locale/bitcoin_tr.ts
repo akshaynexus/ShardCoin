@@ -2664,8 +2664,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 17057 or testnet: 27057)</source>
-        <translation>&lt;port&gt; üzerinde bağlantıları dinle (varsayılan: 17057 veya testnet: 27057)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 48200 or testnet: 58200)</source>
+        <translation>&lt;port&gt; üzerinde bağlantıları dinle (varsayılan: 48200 veya testnet: 58200)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2714,8 +2714,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="-126"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 17058 or testnet: 27058)</source>
-        <translation>&lt;port&gt; üzerinde JSON-RPC bağlantılarını dinle (varsayılan: 17058 veya testnet: 27058)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 48210 or testnet: 27058)</source>
+        <translation>&lt;port&gt; üzerinde JSON-RPC bağlantılarını dinle (varsayılan: 48210 veya testnet: 27058)</translation>
     </message>
     <message>
         <location line="-16"/>

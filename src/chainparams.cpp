@@ -53,8 +53,8 @@ public:
         pchMessageStart[2] = 0x44;
         pchMessageStart[3] = 0x10;
         vAlertPubKey = ParseHex("043ade2afa52ec7327b87ea37d59c57cf6b642644ea44653abc6613884ed9c81f4186916f94b32081fa669e3496fd5c5a364ca7aa5b2fa5f494e36fb79f951fb1a");
-        nDefaultPort = 17057;
-        nRPCPort = 17058;
+        nDefaultPort = 48200;
+        nRPCPort = 48210;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
 
         const char* pszTimestamp = "21 Jan 18 - Bitconnect Ponzi Scheme - No Sympathy From Crypto Community";
@@ -119,7 +119,7 @@ public:
         pchMessageStart[3] = 0x40;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
         vAlertPubKey = ParseHex("04a2a8b02ad14cdb98f0db4ff2b956514993ec5961c304acc85e519d95e2453320b67991bced2b6eadf6996b9c36dffec6b21f090bb548500e881c9d0b87d3f7da");
-        nDefaultPort = 27057;
+        nDefaultPort = 58200;
         nRPCPort = 27058;
         strDataDir = "testnet";
 
