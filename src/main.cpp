@@ -2013,7 +2013,7 @@ bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig) c
 		if (vtx[i].IsCoinBase())
 			return DoS(100, error("CheckBlock() : more than one coinbase"));
 
-	iif (IsProofOfStake())
+	if (IsProofOfStake())
 	{
 		// Coinbase output should be empty if proof-of-stake block
 		if (vtx[0].vout.size() != 1 || !vtx[0].vout[0].IsEmpty())
