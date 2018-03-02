@@ -13,7 +13,8 @@
 #include "txdb.h"
 #include "ui_interface.h"
 #include "walletdb.h"
-
+#include <string>
+#include <iostream>
 #include <boost/algorithm/string/replace.hpp>
 
 using namespace std;
@@ -1759,31 +1760,40 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
         }
     }
 
+
+
     // Calculate coin age reward
-    {
-        CTxDB txdb("r");
-        uint64_t nCoinAge;
-        if (!txNew.GetCoinAge(txdb, pindexPrev, nCoinAge))
-            return error("CreateCoinStake: failed to calculate coin age");
+        {
+            CTxDB txdb("r");
+            uint64_t nCoinAge;
+            if (!txNew.GetCoinAge(txdb, pindexPrev, nCoinAge))
+                return error("CreateCoinStake: failed to calculate coin age");
 
-        uint64_t nReward = GetProofOfStakeReward(pindexPrev, nCoinAge, nFees);
-        if (nReward <= 0)
-            return false;
+            uint64_t nReward = GetProofOfStakeReward(pindexPrev, nCoinAge, nFees);
+            if (nReward <= 0)
+                return false;
 
-        nCredit += nReward;
-    }
+            //Fund reward is 20% of reward amount
+            auto vFundReward = nReward / 5;
+            // Take some reward away from us
+            nReward -= vFundReward;
 
-    if (nCredit >= GetStakeSplitThreshold())
-        txNew.vout.push_back(CTxOut(0, txNew.vout[1].scriptPubKey)); //split stake
+            nCredit += nReward;
+        }
 
-    // Set output amount
-    if (txNew.vout.size() == 3)
-    {
-        txNew.vout[1].nValue = (nCredit / 2 / CENT) * CENT;
-        txNew.vout[2].nValue = nCredit - txNew.vout[1].nValue;
-    }
-    else
-        txNew.vout[1].nValue = nCredit;
+        if (nCredit >= GetStakeSplitThreshold())
+            txNew.vout.push_back(CTxOut(0, txNew.vout[1].scriptPubKey)); //split stake
+
+        // Set output amount
+        if (txNew.vout.size() == 3)
+        {
+            txNew.vout[1].nValue = (nCredit / 2 / CENT) * CENT;
+            txNew.vout[2].nValue = nCredit - txNew.vout[1].nValue;
+        }
+        else {txNew.vout[1].nValue = nCredit;}
+std::string FundWalletAddress = "FoundrWalletADDR";
+        // Add the fund transaction
+        txNew.vout.push_back(CTxOut(vFoundersReward, FundWalletAddress));
 
     // Sign
     int nIn = 0;
