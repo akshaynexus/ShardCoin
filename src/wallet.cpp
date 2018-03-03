@@ -1794,7 +1794,8 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
         //TODO: add founderwalletaddr
 std::string FundWalletAddress = "FoundrWalletADDR";
         // Add the fund transaction
-        txNew.vout.push_back(CTxOut(vFoundersReward, FundWalletAddress));
+        //TODO: uncomment the line below for Founders reward
+        //txNew.vout.push_back(CTxOut(vFoundersReward, FundWalletAddress));
 
     // Sign
     int nIn = 0;

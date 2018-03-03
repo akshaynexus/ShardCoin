@@ -1574,18 +1574,44 @@ bool CBlock::ConnectBlock(CTxDB& txdb, CBlockIndex* pindex, bool fJustCheck)
 				   nReward));
 	}
 	if (IsProofOfStake())
-	{
-		// ppcoin: coin stake tx earns reward instead of paying fee
-		uint64_t nCoinAge;
-		if (!vtx[1].GetCoinAge(txdb, pindex->pprev, nCoinAge))
-			return error("ConnectBlock() : %s unable to get coin age for coinstake", vtx[1].GetHash().ToString());
+	    {
+				  std::string FundPubKey = "FUND_PUBKEY_HERE";
+	        // ppcoin: coin stake tx earns reward instead of paying fee
+	        uint64_t nCoinAge;
+	        if (!vtx[1].GetCoinAge(txdb, pindex->pprev, nCoinAge))
+	            return error("ConnectBlock() : %s unable to get coin age for coinstake", vtx[1].GetHash().ToString());
 
-		uint64_t nCalculatedStakeReward = GetProofOfStakeReward(pindex->pprev, nCoinAge, nFees);
+	        uint64_t nCalculatedStakeReward = GetProofOfStakeReward(pindex->pprev, nCoinAge, nFees);
+	                 uint64_t nStakeRewardShard = nStakeReward;
 
-		if (nStakeReward > nCalculatedStakeReward)
-			return DoS(100, error("ConnectBlock() : coinstake pays too much(actual=%d vs calculated=%d)", nStakeReward, nCalculatedStakeReward));
-	}
+	        if (nStakeRewardShard > nCalculatedStakeReward)
+	            return DoS(100, error("ConnectBlock() : coinstake pays too much(actual=%d vs calculated=%d)", nStakeRewardShard, nCalculatedStakeReward));
 
+
+	// Transaction must include an output sending 20% of the PoS block
+	                // reward to fund, with exception of the genesis block.
+	                if (pindex->nHeight > 25) {
+	                    bool found = false;
+
+	                    BOOST_FOREACH(const CTxOut& output, vtx[1].vout) {   //or maybe vtx[2] did we add another in wallet.cpp???
+	                        if (output.scriptPubKey == FundPubKey) {
+
+	                             uint64_t nOutputShard = output.nValue;
+
+	                            if (nOutputShard== (nCalculatedStakeReward / 5)) {
+	                                found = true;
+	                                break;
+	                            }
+	                        }
+	                    }
+
+	                    if (!found) {
+	            return DoS(100, error("ConnectBlock() : fund reward missing"));  //not sure on the error 100 code here
+	                    }
+	                }
+
+
+	        }
 	// ppcoin: track money supply and mint amount info
 	pindex->nMint = nValueOut - nValueIn + nFees;
 	pindex->nMoneySupply = ((pindex->pprev? pindex->pprev->nMoneySupply : 0) + nValueOut - nValueIn) - nBurnCoins;
