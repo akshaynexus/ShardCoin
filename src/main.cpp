@@ -2039,38 +2039,38 @@ bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig) c
 		if (vtx[i].IsCoinBase())
 			return DoS(100, error("CheckBlock() : more than one coinbase"));
 
-	if (IsProofOfStake())
-	{
-		// Coinbase output should be empty if proof-of-stake block
-		if (vtx[0].vout.size() != 1 || !vtx[0].vout[0].IsEmpty())
-			return DoS(100, error("CheckBlock() : coinbase output not empty for proof-of-stake block"));
-
-		// Second transaction must be coinstake, the rest must not be
-		if (vtx.empty() || !vtx[1].IsCoinStake())
-			return DoS(100, error("CheckBlock() : second tx is not coinstake"));
-		for (unsigned int i = 2; i < vtx.size(); i++)
-			if (vtx[i].IsCoinStake())
-				return DoS(100, error("CheckBlock() : more than one coinstake"));
-
-                // Transaction must include an output sending 20% of the PoS block
-                // reward to fund, with exception of the genesis block.
-                if (nHeight > 0) {
-                    bool found = false;
-
-                    BOOST_FOREACH(const CTxOut& output, block.vtx[0].vout) {
-                        if (output.scriptPubKey == FundPubKey) {
-                            if (output.nValue == (GetProofOfStakeReward(pindex->pprev, nCoinAge, nFees) / 5)) {
-                                found = true;
-                                break;
-                            }
-                        }
-                    }
-
-                    if (!found) {
-                        return state.DoS(100, error("%s: fund reward missing", __func__), REJECT_INVALID, "cb-no-fund-reward");
-                    }
-                }
-	}
+	// if (IsProofOfStake())
+	// {
+	// 	// Coinbase output should be empty if proof-of-stake block
+	// 	if (vtx[0].vout.size() != 1 || !vtx[0].vout[0].IsEmpty())
+	// 		return DoS(100, error("CheckBlock() : coinbase output not empty for proof-of-stake block"));
+	//
+	// 	// Second transaction must be coinstake, the rest must not be
+	// 	if (vtx.empty() || !vtx[1].IsCoinStake())
+	// 		return DoS(100, error("CheckBlock() : second tx is not coinstake"));
+	// 	for (unsigned int i = 2; i < vtx.size(); i++)
+	// 		if (vtx[i].IsCoinStake())
+	// 			return DoS(100, error("CheckBlock() : more than one coinstake"));
+	//
+  //               // Transaction must include an output sending 20% of the PoS block
+  //               // reward to fund, with exception of the genesis block.
+  //               if (nHeight > 0) {
+  //                   bool found = false;
+	//
+  //                   BOOST_FOREACH(const CTxOut& output, block.vtx[0].vout) {
+  //                       if (output.scriptPubKey == FundPubKey) {
+  //                           if (output.nValue == (GetProofOfStakeReward(pindex->pprev, nCoinAge, nFees) / 5)) {
+  //                               found = true;
+  //                               break;
+  //                           }
+  //                       }
+  //                   }
+	//
+  //                   if (!found) {
+  //                       return state.DoS(100, error("%s: fund reward missing", __func__), REJECT_INVALID, "cb-no-fund-reward");
+  //                   }
+  //               }
+	// }
 
 	// Check proof-of-stake block signature
 	if (fCheckSig && !CheckBlockSignature())
